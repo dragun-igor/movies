@@ -1,12 +1,16 @@
 function Footer() {
-    return <footer className="page-footer indigo accent-4">
-    <div className="footer-copyright">
-      <div className="container">
-      © {new Date().getFullYear()} Copyright Text
-      <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+  return (
+    <footer className="page-footer indigo accent-4">
+      <div className="footer-copyright">
+        <div className="container">
+          © {new Date().getFullYear()} Copyright Text
+          <a className="grey-text text-lighten-4 right" href="#!">
+            More Links
+          </a>
+        </div>
       </div>
-    </div>
     </footer>
+  );
 }
 
-export { Footer }
+export { Footer };
