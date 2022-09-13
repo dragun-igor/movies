@@ -14,9 +14,10 @@ function Movie(props) {
           <img
             className="activator"
             src="https://via.placeholder.com/300x400?text=${title}"
+            alt={title}
           />
         ) : (
-          <img className="activator" src={poster} />
+          <img className="activator" src={poster} alt={title} />
         )}
       </div>
       <div className="card-content">
